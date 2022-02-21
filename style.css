@@ -1,0 +1,42 @@
+body {
+    font-family: roboto, sans-serif;
+    height: 100vh;
+}
+
+.hero,
+.main,
+.footer {
+    padding: 0px 300px;
+}
+
+.hero {
+    background: #1f2937;
+    align-items: flex-start;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+.right-links {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
