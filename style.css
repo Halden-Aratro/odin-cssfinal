@@ -10,6 +10,7 @@ body {
 .hero,
 .main,
 .quote,
+.action,
 .footer {
     padding: 0px 300px;
 }
@@ -148,5 +149,44 @@ h1 {
     display: flex;
     justify-content: flex-end;
     margin: -30px 0px 0px 0px;
+}
+
+
+/*action section*/
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-top : 50px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.action-container p {
+
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup {
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 35px;
+    width: 90px;
+}
+
+.signup button {
+    height: 35px;
+    width: 90px;
+    background: red;
+    align-items: center;
 }
 
