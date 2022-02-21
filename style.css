@@ -1,3 +1,7 @@
+/**, *::before, *::after {
+    box-sizing: border-box;
+}*/
+
 body {
     font-family: roboto, sans-serif;
     height: 100vh;
@@ -5,6 +9,7 @@ body {
 
 .hero,
 .main,
+.quote,
 .footer {
     padding: 0px 300px;
 }
@@ -12,6 +17,9 @@ body {
 .hero {
     background: #1f2937;
     align-items: flex-start;
+    color: #f9faf8;
+/* erase height is necessary*/
+    height: 50vh;
 }
 
 .header {
@@ -20,7 +28,6 @@ body {
 }
 
 .logo {
-    color: #f9faf8;
     font-size: 24px;
     display: flex;
     align-items: center;
@@ -29,14 +36,31 @@ body {
 ul {
     display: flex;
     gap: 24px;
-}
-
-.right-links {
-    font-size: 18px;
     list-style-type: none;
 }
 
+.secondary-text,
 a {
+    font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.awesome {
+    margin: 50px auto;
+}
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    width: 80px;
+    height: 30px;
 }
