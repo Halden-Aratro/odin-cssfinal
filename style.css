@@ -4,7 +4,7 @@
 
 body {
     font-family: roboto, sans-serif;
-    height: 100vh;
+    height: 200vh;
 }
 
 .hero,
@@ -88,11 +88,13 @@ button {
     font-size: 18px;
 }
 
+/*main section*/
 .main {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 50vh;
 }
 
 h1 {
@@ -120,6 +122,24 @@ h1 {
     border-radius: 10px;
 }
 
-p {
+.subtext {
     text-align: center;
 }
+
+/*quote section*/
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signature {
+    font-weight: 700;
+}
+
