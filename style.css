@@ -7,7 +7,6 @@ body {
     height: 200vh;
 }
 
-.header,
 .hero,
 .main,
 .footer {
@@ -30,6 +29,7 @@ button,
 .header {
     display: flex;
     justify-content: space-between;
+    width: 100vh;
 }
 
 .logo {
