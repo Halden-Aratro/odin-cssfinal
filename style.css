@@ -7,10 +7,9 @@ body {
     height: 200vh;
 }
 
+.header,
 .hero,
 .main,
-.quote,
-.action,
 .footer {
     padding: 0px 300px;
 }
@@ -43,6 +42,7 @@ ul {
     display: flex;
     gap: 24px;
     list-style-type: none;
+    padding: 0px;
 }
 
 .secondary-text,
@@ -136,6 +136,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 100px 400px;
 }
 
 .quote-text {
@@ -154,23 +155,37 @@ h1 {
 
 /*action section*/
 
+.action {
+    padding: 0px 250px;
+}
+
 .action-container {
     display: flex;
     background-color: #3882F6;
     border-radius: 10px;
     margin-top : 50px;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
 }
 
-.action-container p {
-
-}
 
 .action-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-b {
+    font-size: 18px;
+    font-weight:300;
+    margin: 0px;
+}
+
+.text-a {
+    margin: 0px;
 }
 
 .signup {
@@ -180,13 +195,6 @@ h1 {
     align-items: center;
     border-radius: 10px;
     height: 35px;
-    width: 90px;
-}
-
-.signup button {
-    height: 35px;
-    width: 90px;
-    background: red;
-    align-items: center;
+    width: 100px;
 }
 
