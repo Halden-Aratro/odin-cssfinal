@@ -11,7 +11,12 @@ body {
 .main,
 .quote,
 .footer {
-    padding: 0px 300px;
+    padding: 0px 200px;
+}
+
+button,
+.act-now {
+    background-color: #3882F6;
 }
 
 .hero {
@@ -42,17 +47,22 @@ ul {
 .secondary-text,
 a {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5eaeb;
     text-decoration: none;
 }
 
 .awesome {
     margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
+
 #hero-text {
     display: flex;
     flex-direction: column;
     max-width: 350px;
+    gap: 15px;
 }
 
 .title {
@@ -61,6 +71,20 @@ a {
 }
 
 button {
-    width: 80px;
-    height: 30px;
+    width: 90px;
+    height: 35px;
+    border-radius:10px;
+    color: #f9faf8;
+    border: none;
+    font-size: 18px;
 }
+
+.img {
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.808);
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    font-size: 18px;
+}
+
